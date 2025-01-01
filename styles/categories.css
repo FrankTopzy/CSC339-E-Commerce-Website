@@ -1,0 +1,27 @@
+.categories {
+  display: grid;
+  grid-template-columns: 1fr;
+  
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 110px;
+}
+
+/*.category-element-container {
+  margin: -100px 0 0 0;
+  font-size: 20px;
+}
+
+.category-element-container-2 {
+  margin: -130px 0 0 0;
+}
+
+.category-element-container-3 {
+  margin: -160px 0 0 0;
+}
+
+.category-element-container-4 {
+  margin: -190px 0 0 0;
+}*/
