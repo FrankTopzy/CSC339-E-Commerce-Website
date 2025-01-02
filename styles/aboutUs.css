@@ -63,11 +63,22 @@ body {
 }
 
 @media all and (max-width: 570px) {
+<<<<<<< HEAD
+=======
+  .aboutUs-page{
+    height: 800px;
+  }
+
+>>>>>>> 4fcf04f415338002665e66de702b0bdc91a4d380
   .aboutUs-context {
     font-size: 12px;
     margin: -10px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 4fcf04f415338002665e66de702b0bdc91a4d380
   .aboutUs-img {
     width: 300px;
   }
