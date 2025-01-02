@@ -7,7 +7,6 @@ body {
   background: linear-gradient(to right, rgba(39, 35, 35, 0.664), rgba(70, 64, 64, 0.904)), 
     url('/images/homeBackground2.jpg');
   background-size: cover;
-  height: 700px;
   padding: 20px 0 0 30px;
 }
 
@@ -69,6 +68,15 @@ body {
 }
 
 @media all and (max-width: 570px) {
+  .aboutUs-page{
+    height: 800px;
+  }
+
+  .aboutUs-context {
+    font-size: 12px;
+    margin: -10px;
+  }
+
   .aboutUs-img {
     width: 300px;
   }
