@@ -10,6 +10,16 @@ body {
   padding: 20px 0 0 30px;
 }
 
+.aboutUs-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-icon {
+  color: white;
+  font-size: 30px;
+}
+
 .go-back-icon {
   color: white;
   font-size: 30px;
@@ -18,7 +28,6 @@ body {
 .aboutUs-img {
   border-radius: 160px;
   margin-right: 40px;
-  height: 100%;
 }
 
 .aboutUs-context {
@@ -37,26 +46,12 @@ body {
 
   }
 
-  .aboutUs-page {
-    height: 1000px;
-  }
-
   .aboutUs-img {
     margin-bottom: 20px;
   }
 }
 
 @media all and (max-width: 750px) {
-  .aboutUs-page {
-    height: 1200px;
-  }
-}
-
-@media all and (max-width: 750px) {
-  .aboutUs-page {
-    height: 1400px;
-  }
-
   .footer {
     padding: 0 10px 0 10px;
   }
@@ -68,10 +63,6 @@ body {
 }
 
 @media all and (max-width: 570px) {
-  .aboutUs-page{
-    height: 800px;
-  }
-
   .aboutUs-context {
     font-size: 12px;
     margin: -10px;
