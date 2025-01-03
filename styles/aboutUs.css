@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  color: rgb(91, 81, 230);
+}
+
+.aboutUs-page {
+  background: linear-gradient(to right, rgba(39, 35, 35, 0.664), rgba(70, 64, 64, 0.904)), 
+    url('/images/homeBackground2.jpg');
+  background-size: cover;
+  padding: 20px 0 0 30px;
+}
+
+.aboutUs-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-icon {
+  color: white;
+  font-size: 30px;
+}
+
+.go-back-icon {
+  color: white;
+  font-size: 30px;
+}
+
+.aboutUs-img {
+  border-radius: 160px;
+  margin-right: 40px;
+}
+
+.aboutUs-context {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+@media all and (max-width: 1200px) {
+  .aboutUs-context {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 20px;
+
+  }
+
+  .aboutUs-img {
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .footer {
+    padding: 0 10px 0 10px;
+  }
+
+  .copyright p,
+  .social-media p{
+    line-height: 20px;
+  }
+}
+
+@media all and (max-width: 570px) {
+<<<<<<< HEAD
+=======
+  .aboutUs-page{
+    height: 800px;
+  }
+
+>>>>>>> 4fcf04f415338002665e66de702b0bdc91a4d380
+  .aboutUs-context {
+    font-size: 12px;
+    margin: -10px;
+  }
+<<<<<<< HEAD
+
+=======
+  
+>>>>>>> 4fcf04f415338002665e66de702b0bdc91a4d380
+  .aboutUs-img {
+    width: 300px;
+  }
+}

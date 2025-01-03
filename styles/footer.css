@@ -1,0 +1,22 @@
+.footer {
+  background: black;
+  color: rgb(126, 126, 126);
+  height: 200px;
+  font-weight: bold;
+  line-height: 10px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  margin: 0 160px 0 0;
+}
+
+.footer-link {
+  color: rgb(126, 126, 126);
+}
+
+.social-media-link img {
+  width: 28px;
+}
